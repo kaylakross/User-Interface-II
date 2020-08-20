@@ -1,1 +1,86 @@
-/* Add CSS styling here */
+.header{
+    background-color:#847356;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Baloo Tamma 2';
+    text-transform: uppercase;
+    margin: 2%;
+}
+
+h2 {
+    font-family: 'Baloo Tamma 2';
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Baloo Tamma 2';
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    background-color: #cec2e5;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+  }
+  
+  li a:hover {
+    background-color: #90ddc0;
+  }
+
+
+
+
+img {
+    width: 25%;
+}
+
+.highlights {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.highlights .item {
+     display: flex;
+     flex-flow: row wrap;
+     width:25%;   
+}
+
+.contact {
+    background-color: #90ddc0;
+    text-align: center;
+}
+
+.button {
+    background-color: purple;
+}
